@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lokaverkefni</title>
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Oswald" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+
+<div id="haus">
+  <img src="https://i.imgur.com/cvCwDoJ.png" alt="Logo Loka-gengis">
+</div>
+<div class="col-12 mynd">
+  <img id="mynd" class="mynd col-12" src="http://gullfoss.is/wp-content/uploads/2013/04/gullfoss-waterfall.jpg" alt="Mynd af gullfoss, tenging: gull= peningar">
+</div>
+<div id="megin">
+  <div id="reiknivel" class="col-12">
+    <div id="reihaus" class="vool">
+      <h2>Reiknivél</h2>
+    </div>
+    <div id="reibody" class="col-12 row">
+      <div id="velinn" class="col-6 here">
+        <h3>Myntbreyta</h3>
+        <div class="error row col-12">
+          <input id="no1" class="col-8 incon" type="number" maxlength="14">
+          <button id="no2" class="col-4">Breyta</button>
+        </div>
+        <div id="coord">
+          <div id="oor">
+            <i id="oorinn" class="fas fa-angle-down"></i>
+          </div>
+          <div id="listinn" class="falid col-12 container row">
+            <h5 id="n00" class="valdi col-4">USD</h5>
+            <h5 id="n01" class="valdi col-4">DKK</h5>
+            <h5 id="n02" class="valdi col-4">EUR</h5>
+            <h5 id="n03" class="valdi col-4">JPY</h5>
+            <h5 id="n04" class="valdi col-4">CAD</h5>
+            <h5 id="n05" class="valdi col-4">NOK</h5>
+            <h5 id="n06" class="valdi col-4">GBP</h5>
+            <h5 id="n07" class="valdi col-4">CHF</h5>
+            <h5 id="n08" class="valdi col-4">SEK</h5>
+            <h5 id="n09" class="valdi col-12">ISK</h5>
+          </div>
+        </div>
+      </div>
+      <div id="gjaldut" class="col-6 here">
+        <div id="pengecont" class="col-12 container row">
+          <div id="penge" class="col-12"><h2>Gjaldeyrir</h2></div>
+          <div id="isf" class="utkoma col-12 container row">
+            <div id="g" class="gildi col-8">0</div>            
+              <div class="fow">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/236px-Flag_of_Iceland.svg.png" class="flag">
+              <span>ISK<span></div>
+          </div>                
+          <div id="usf" class="utkoma col-12 container row">
+            <div id="0g" class="gildi col-8">0</div>
+              <div class="fow">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/220px-Flag_of_the_United_States.svg.png" class="flag">              
+              <span>USD<span></div>
+          </div>
+          <div id="dkf" class="utkoma col-12 container row">
+            <div id="1g" class="gildi col-8">0</div>
+            <div class="fow">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/225px-Flag_of_Denmark.svg.png" class="flag">
+            <span>DKK<span></div>
+          </div>
+          <div id="euf" class="utkoma col-12 container row">
+            <div id="2g" class="gildi col-8">0</div>
+            <div class="fow">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/255px-Flag_of_Europe.svg.png" class="flag">
+            <span>EUR<span></div>
+          </div>
+          <div id="jpf" class="utkoma col-12 container row">
+            <div id="3g" class="gildi col-8">0</div>
+            <div class="fow">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/255px-Flag_of_Japan.svg.png" class="flag">
+            <span>JPY<span></div>
+          </div>
+          <div id="caf" class="utkoma col-12 container row">
+            <div id="4g" class="gildi col-8">0</div>
+            <div class="fow">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/255px-Flag_of_Canada_%28Pantone%29.svg.png" class="flag">
+            <span>CAD<span></div>
+          </div>
+          <div id="nof" class="utkoma col-12 container row">
+            <div id="5g" class=" gildi col-8">0</div>
+            <div class="fow">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/234px-Flag_of_Norway.svg.png" class="flag">
+            <span>NOK<span></div>
+          </div>
+          <div id="gbf" class="utkoma col-12 container row">
+            <div id="6g" class="gildi col-8">0</div>
+            <div class="fow">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/255px-Flag_of_the_United_Kingdom.svg.png" class="flag">
+            <span>GBP<span></div>
+          </div>
+          <div id="chf" class="utkoma col-12 container row">
+            <div id="7g" class="gildi col-8">0</div>
+            <div class="fow">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Civil_Ensign_of_Switzerland_%28Pantone%29.svg/158px-Civil_Ensign_of_Switzerland_%28Pantone%29.svg.png" class="flag">
+            <span>CHF<span></div>
+          </div>
+          <div id="sef" class="utkoma col-12 container row">
+            <div id="8g" class="gildi col-8">0</div>
+            <div class="fow">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/255px-Flag_of_Sweden.svg.png" class="flag">
+            <span>SEK<span></div>
+          </div>
+        </div>
+        <div class="linkurho">
+          <h4>Gögnin koma frá <a class="linkur" href="http://m5.is/" target="_blank">M5.is</a></h4>      
+        </div>
+      </div>
+    </div> 
+  </div>
+              
+              
+    <div id="gjaldgengi"></div>
+  <div id="gengihaus" class="vool">
+    <h2>Gengi gjaldeyra</h2>  
+  </div>
+              
+  <div id="gengid" class="col-12 row">
+    <div id="Land" class="col-6 here bil">
+      <div>
+        <h3 class="heiti">Landsbankinn</h3>
+      </div>
+      <div class="flokkar col-12 row">
+        <span class="col-3">Merki</span>
+        <span class="col-4">Nafn</span>
+        <span class="col-3">Gengi</span>
+        <span class="col-2">Breyting</span>
+      </div>
+      <div id="lbefni" class="sbar col-12">
+      </div>
+    </div>
+    
+    <div id="Arion" class="col-6 here">
+      <h3 class="heiti">Arionbanki</h3>
+      <div class="flokkar col-12 row">
+        <span class="col-3">Merki</span>
+        <span class="col-4 jolo">Nafn</span>
+        <span class="col-3">Gengi</span>
+        <span class="col-2">Breyting</span>
+      </div>
+      <div id="arionefni" class="sbar col-12">
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+<div id="fotur">
+  <div>Þessi síða er lokaverkefni í áfanganum FORR2VV05 við VMA. Höfundur og forritari er  Stefán Máni</div>
+</div>
+            
+            
+            
+   
+            
+            
+<div class="non nonfalid"> <!--nonfalid-->
+  <img class="nonmynd" src="https://cdn.thisiswhyimbroke.com/images/disturbing-baby-mask.jpg" alt="Maður með barnsandlit">
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

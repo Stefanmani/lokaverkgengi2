@@ -1,0 +1,194 @@
+:root {
+  --normalp:rgb(154,134,195);
+  --hoverp: rgb(100,100,100); 
+  --activep: rgb(190,160,230);
+}
+body {
+  background-color: rgb(211,211,211);
+}
+#haus {
+  padding: 5px 0 10px 0;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  background-color: var(--normalp);
+  font-family: 'Oswald', sans-serif;
+}
+#mynd {
+  margin-bottom: 20px;
+}
+.mynd {
+  padding: 0;
+  box-shadow: 0px 20px 50px -15px black;
+}
+#reiknivel {
+  padding: 0;
+}
+.heiti {
+  text-align: center; 
+  border: 2px solid black; 
+  background-color: var(--normalp);
+}
+.vool {
+  background-color: var(--normalp);
+  margin-bottom: 40px;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: 0px 25px 50px -15px black;
+}
+#reibody {
+  margin: 0 0 40px 0;
+  transition: width 10s, height 5s;
+}
+#oor:hover {
+  cursor: pointer;
+}
+#no1 {
+  border: 1.2px solid black; 
+}
+#no2 {
+  background-color: var(--normalp);
+  border:1.2px solid black;
+}
+#no2:hover {
+  cursor: pointer;
+  background-color: var(--hoverp);
+}
+#no2:active {
+  box-shadow: 3px 3px 10px var(--activep),3px -3px 10px var(--activep);
+}
+#velinn {
+  text-align: center;
+}
+.falid {
+  visibility: hidden;
+}
+.valdi {
+  padding: -100px;
+  background-color: var(--normalp);
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+.valdi:hover {
+  cursor:pointer;
+  background-color: var(--hoverp);
+}
+.valdi:active {
+  background-color: var(--activep);
+}
+#gjaldut {
+  border: 2px solid black;
+  background-color: var(--normalp);
+  border-radius: 10px;
+}
+#pengecont {
+  margin-bottom: 20px;
+}
+#penge {
+  text-align: center;
+}
+.flag {
+  height: 20px;
+}
+.fow { 
+  width:80px;
+}
+.utkoma {
+  margin: 5px;
+}
+.gildi {
+  background-color:white;
+  border: 2px solid black;
+  border-radius: 8px; 
+  text-align: right;
+  margin-right: 10px;
+  font-family: 'Inconsolata', monospace;
+  width: 100%;
+}
+.linkurho {
+  text-align: center;
+}
+.linkur {
+  color: darkblue;
+}
+.linkur:hover {
+  color: rgb(90,90,255);
+  text-decoration: none;
+}
+.incon {
+  font-family: 'Inconsolata', monospace;
+}
+#gengid {
+  margin: 0 0 40px 0;
+}
+.efni>span:nth-child(1),.flokkar>span:nth-child(1) {
+  text-align: left;
+}
+.efni>span:nth-child(3),.flokkar>span:nth-child(3),.efni>span:nth-child(4),.flokkar>span:nth-child(4){
+  text-align: right;
+}
+.efni:nth-child(odd) {
+  background-color:darkgrey;
+}
+.flokkar, .efni {
+  margin:0;
+}
+#lbefni, #arionefni {
+  height: 500px;
+  padding: 0;
+}
+.sbar {
+  overflow-y:auto;
+  overflow-x:hidden;
+  font-family: 'Oswald', sans-serif;
+}
+.sbar::-webkit-scrollbar {
+    width: 0px;
+}
+.bil {
+  margin-bottom: 20px;
+}
+
+
+
+
+#fotur {
+  background-color: black;
+  color: white;
+  height: 60px;
+  bottom: 0;
+}
+
+.villa {
+  text-align: center;
+  background-color: white;
+}
+
+.griinu {
+  color: darkgreen; 
+}
+.redu {
+  color: red;
+}
+.pratt{
+  background-color: var(--hoverp);
+}
+
+.non {
+  border: 2px solid black;
+  position: fixed;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+}
+.nonmynd {
+  width: 100%;
+  height: 100%;
+}
+
+.nonfalid {
+  visibility: hidden;
+}
